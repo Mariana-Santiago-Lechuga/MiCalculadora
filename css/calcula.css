@@ -1,0 +1,68 @@
+/*aspectos generales: bordes y color de fondo de calculadora*/
+.calculadora {
+ border: 3px #75b79e; 
+  width: 700px;
+  height: 350px;
+  text-align: center;
+  background-color: #dcedc1; }
+
+/*pantalla de visualización: bordes, posición, color de fondo, estilo letra.*/
+#textoPantalla {
+ width: 500px;
+ height: 30px;
+ border: 2px black solid; 
+ color: black;
+ text-align: right;
+  position: relative;
+left: 30px;  padding: 5px 5px;
+background-color: white; 
+font-family: "courier new";
+font-size: 16px;
+ overflow: hidden;
+padding: 15px 32;
+text-decoration: none;
+display: inline-block;
+margin: 4px 2px;
+box-shadow: 3px 3px 3px black;
+
+
+}
+
+/*botones normales: anchura y margen*/
+.calculadora [type=button] { 
+  width: 77px;
+   padding: 6px 20px;
+   background-color: white;
+   border: none;
+   color: black;
+   font-weight: bold;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
+   margin: 4px 4px;
+   cursor: pointer;
+   box-shadow: 3px 3px 3px black;
+     }
+/*botones especiales*/
+
+
+.calculadora input.largo { color:#2f4eab; width: 90px;
+background-color: #a6b1e1; }
+
+.calculadora input.conversiones {
+  background-color: #ffd3b6;
+  width: 150px;
+}
+
+  .calculadora input.funtrigon {
+background-color: #ffaaa5;
+  }
+
+.calculadora input.igual{
+  background-color: #a8e6cf;
+  width: 160px;
+}
+.calculadora input.cero{
+    width: 150px;
+}
